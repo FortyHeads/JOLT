@@ -76,7 +76,7 @@
     </message>
 </context>
 <context>
-    <name>JoltGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Semnează &amp;mesajul...</translation>

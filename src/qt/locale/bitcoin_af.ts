@@ -212,7 +212,7 @@
     </message>
 </context>
 <context>
-    <name>JoltGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Netwerk-sinkronisasie...</translation>

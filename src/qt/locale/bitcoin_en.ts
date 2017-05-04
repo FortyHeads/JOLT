@@ -297,7 +297,7 @@
     </message>
 </context>
 <context>
-    <name>JoltGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <location filename="../joltgui.cpp" line="+357"/>
         <source>Sign &amp;message...</source>

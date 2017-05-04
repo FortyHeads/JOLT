@@ -9,6 +9,7 @@
 #include "crypto/sha256.h"
 #include "utilstrencodings.h"
 
+#include "compat/endian.h"
 #include "sodium.h"
 
 #include <cstring>

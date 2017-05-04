@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Jolt"
-            VALUE "FileDescription",    "Jolt Core (GUI node for Jolt)"
+            VALUE "CompanyName",        "Bitcoin"
+            VALUE "FileDescription",    "Bitcoin Core (GUI node for Bitcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "Jolt-qt"
+            VALUE "InternalName",       "bitcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "Jolt-qt.exe"
-            VALUE "ProductName",        "Jolt Core"
+            VALUE "OriginalFilename",   "bitcoin-qt.exe"
+            VALUE "ProductName",        "Bitcoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

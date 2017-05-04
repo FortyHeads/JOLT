@@ -128,7 +128,8 @@ public:
         
         assert(consensus.hashGenesisBlock == uint256S("31a3a773832cfcb38377901992965e181e43b6bd2ebd55217dcc0dcf4e7363a8"));
         assert(genesis.hashMerkleRoot == uint256S("0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"));
-
+        
+        vSeeds.push_back(CDNSSeedData("52.203.150.8", "52.203.150.8"));
         // // Note that of those with the service bits flag, most only support a subset of possible options
         // vSeeds.push_back(CDNSSeedData("bitcoin.sipa.be", "seed.bitcoin.sipa.be", true)); // Pieter Wuille, only supports x1, x5, x9, and xd
         // vSeeds.push_back(CDNSSeedData("bluematt.me", "dnsseed.bluematt.me", true)); // Matt Corallo, only supports x9

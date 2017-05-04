@@ -100,7 +100,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // November 15th, 2017.
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000003f94d1ad391682fe038bf5");
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000bf0");
 
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x00000000000000000013176bf8d7dfeab4e1db31dc93bc311b436e82ab226b90"); //453354
@@ -192,7 +192,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1493596800; // May 1st 2017
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000001f057509eba81aed91");
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000bf0");
 
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x00000000000128796ee387cf110ccb9d2f36cffaf7f73079c995377c65ac0dcc"); //1079274
@@ -293,7 +293,7 @@ public:
         nEquihashN = N;
         nEquihashK = K;
 
-        genesis = CreateGenesisBlock(1492437610, uint256S("0x0000000000000000000000000000000000000000003f94d1ad391682fe038bf5"), 0x207fffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1492437610, uint256S("0x0000000000000000000000000000000000000000000000000000000000000bf0"), 0x207fffff, 1, 50 * COIN);
         genesis.nSolution = ParseHex("054ccac46633b53ef1e2d24840a4306c005a2a6a90a90959fdd8b9175fdb28d1d6000ca6efa1b30a1deb64f65b85be11a5567f13a4d4ff080b8eb6a272bd98421193247c");
         consensus.hashGenesisBlock = genesis.GetHash();
 

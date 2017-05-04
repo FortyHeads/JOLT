@@ -393,7 +393,6 @@ public:
         READWRITE(this->nVersion);
         READWRITE(hashPrev);
         READWRITE(hashMerkleRoot);
-        READWRITE(hashReserved);
         READWRITE(nTime);
         READWRITE(nBits);
         READWRITE(nNonce);
@@ -406,11 +405,11 @@ public:
         block.nVersion        = nVersion;
         block.hashPrevBlock   = hashPrev;
         block.hashMerkleRoot  = hashMerkleRoot;
-	    block.hashReserved    = hashReserved;
+	block.hashReserved    = hashReserved;
         block.nTime           = nTime;
         block.nBits           = nBits;
         block.nNonce          = nNonce;
-	    block.nSolution       = nSolution;
+	block.nSolution       = nSolution;
         return block.GetHash();
     }
 

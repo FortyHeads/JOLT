@@ -46,7 +46,7 @@ public:
         READWRITE(nTime);
         READWRITE(nBits);
         READWRITE(nNonce);
-	    READWRITE(nSolution);
+	READWRITE(nSolution);
     }
 
     void SetNull()
@@ -54,11 +54,11 @@ public:
         nVersion = 0;
         hashPrevBlock.SetNull();
         hashMerkleRoot.SetNull();
-	    hashReserved.SetNull();
+	hashReserved.SetNull();
         nTime = 0;
         nBits = 0;
         nNonce = uint256();
-	    nSolution.clear();
+	nSolution.clear();
     }
 
     bool IsNull() const
